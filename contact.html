@@ -1,132 +1,97 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acme Co — Contact</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Acme Co — Contact</title>
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-
-    <!-- ============================================================
+<!-- ============================================================
          #header / #nav  (same as index.html)
          ============================================================ -->
-    <header id="header">
-        <div class="container">
-            <nav id="nav">
-                <span id="site-logo">Acme Co</span>
-                <ul id="nav-links">
-                    <li><a id="nav-home" href="index.html">Home</a></li>
-                    <li><a id="nav-about" href="about.html">About</a></li>
-                    <li><a id="nav-contact" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- ============================================================
+<header id="header">
+<div class="container">
+<nav id="nav">
+<span id="site-logo">Acme Co</span>
+<ul id="nav-links">
+<li><a href="index.html" id="nav-home">Home</a></li>
+<li><a href="about.html" id="nav-about">About</a></li>
+<li><a href="contact.html" id="nav-contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<!-- ============================================================
          #contact-section
          ============================================================ -->
-    <section id="contact-section" class="section">
-        <div class="container">
-            <h1 class="section-title" id="contact-heading">Get in Touch</h1>
-            <p class="section-subtitle" id="contact-intro">
+<section class="section" id="contact-section">
+<div class="container">
+<h1 class="section-title" id="contact-heading">Get in Touch</h1>
+<p class="section-subtitle" id="contact-intro">
                 We'd love to hear from you. Reach out and we'll get back within one business day.
             </p>
-
-            <!-- Contact details — each has a unique ID for the code agent -->
-            <div id="contact-details">
-                <p id="phone-number">
-                    <strong>Phone:</strong> (555) 012-3456
+<!-- Contact details — each has a unique ID for the code agent -->
+<div id="contact-details">
+<p id="phone-number">(420)-696-6969</p>
+<p id="email">
+<strong>Email:</strong> hello@acmeco.example.com
                 </p>
-                <p id="email">
-                    <strong>Email:</strong> hello@acmeco.example.com
+<p id="address">
+<strong>Address:</strong> 123 Main Street, Suite 400, Springfield, IL 62701
                 </p>
-                <p id="address">
-                    <strong>Address:</strong> 123 Main Street, Suite 400, Springfield, IL 62701
-                </p>
-            </div>
-
-            <!-- Contact form -->
-            <form id="contact-form" action="#" method="post">
-
-                <div class="form-group">
-                    <label for="form-name" id="form-name-label">Your Name</label>
-                    <input
-                        type="text"
-                        id="form-name"
-                        name="name"
-                        placeholder="Jane Smith"
-                        required
-                    >
-                </div>
-
-                <div class="form-group">
-                    <label for="form-email" id="form-email-label">Email Address</label>
-                    <input
-                        type="email"
-                        id="form-email"
-                        name="email"
-                        placeholder="jane@example.com"
-                        required
-                    >
-                </div>
-
-                <div class="form-group">
-                    <label for="form-subject" id="form-subject-label">Subject</label>
-                    <input
-                        type="text"
-                        id="form-subject"
-                        name="subject"
-                        placeholder="How can we help?"
-                    >
-                </div>
-
-                <div class="form-group">
-                    <label for="form-message" id="form-message-label">Message</label>
-                    <textarea
-                        id="form-message"
-                        name="message"
-                        placeholder="Tell us about your project..."
-                        required
-                    ></textarea>
-                </div>
-
-                <button type="submit" id="contact-form-submit">Send Message</button>
-
-            </form>
-        </div>
-    </section>
-
-    <!-- ============================================================
+</div>
+<!-- Contact form -->
+<form action="#" id="contact-form" method="post">
+<div class="form-group">
+<label for="form-name" id="form-name-label">Your Name</label>
+<input id="form-name" name="name" placeholder="Jane Smith" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="form-email" id="form-email-label">Email Address</label>
+<input id="form-email" name="email" placeholder="jane@example.com" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="form-subject" id="form-subject-label">Subject</label>
+<input id="form-subject" name="subject" placeholder="How can we help?" type="text"/>
+</div>
+<div class="form-group">
+<label for="form-message" id="form-message-label">Message</label>
+<textarea id="form-message" name="message" placeholder="Tell us about your project..." required=""></textarea>
+</div>
+<button id="contact-form-submit" type="submit">Send Message</button>
+</form>
+</div>
+</section>
+<!-- ============================================================
          #footer  (same as index.html)
          ============================================================ -->
-    <footer id="footer">
-        <div class="container">
-            <div id="footer-inner">
-                <div id="footer-about">
-                    <div id="footer-brand">Acme Co</div>
-                    <p id="footer-tagline">Professional services since 2010.</p>
-                </div>
-                <div id="footer-contact">
-                    <h4>Contact Us</h4>
-                    <p id="footer-phone">Phone: (555) 012-3456</p>
-                    <p id="footer-email">Email: hello@acmeco.example.com</p>
-                </div>
-                <div id="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+<footer id="footer">
+<div class="container">
+<div id="footer-inner">
+<div id="footer-about">
+<div id="footer-brand">Acme Co</div>
+<p id="footer-tagline">Professional services since 2010.</p>
+</div>
+<div id="footer-contact">
+<h4>Contact Us</h4>
+<p id="footer-phone">Phone: (555) 012-3456</p>
+<p id="footer-email">Email: hello@acmeco.example.com</p>
+</div>
+<div id="footer-links">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+<div id="footer-copy">
+                © 2024 Acme Co. All rights reserved.
             </div>
-            <div id="footer-copy">
-                &copy; 2024 Acme Co. All rights reserved.
-            </div>
-        </div>
-    </footer>
-
+</div>
+</footer>
 </body>
 </html>
